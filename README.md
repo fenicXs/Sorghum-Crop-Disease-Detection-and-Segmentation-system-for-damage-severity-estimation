@@ -3,8 +3,6 @@
 ## Overview
 This project focuses on **crop disease detection** leveraging **YOLOv8** and **YOLOv11** for object detection. The goal is to accurately detect and classify diseases in crops based on images. The dataset was annotated using the **Roboflow** platform, and the model was trained and deployed for high-performance inference on custom datasets.
 
----
-
 ## Key Features
 - Utilizes **YOLOv8** and **YOLOv11** models for detection and classification.
 - Custom dataset annotation using **Roboflow**.
@@ -15,8 +13,6 @@ This project focuses on **crop disease detection** leveraging **YOLOv8** and **Y
 - High-resolution detection with configurable confidence thresholds.
 - Integration with **Google Colab** for training and deployment.
 - Annotated data saving and visualization.
-
----
 
 ## Installation and Setup
 
