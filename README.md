@@ -43,7 +43,7 @@ This project focuses on **crop disease detection** leveraging **YOLOv8** and **Y
 The dataset contains images of crops with varying diseases, labeled and annotated using Roboflow. After annotation, the dataset is exported in YOLO format for compatibility with YOLOv8 and YOLOv11 models.
 
 ### Overview
-![Overview]()
+![Overview](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/db5c54086c6dde7a234f4d936e92eac236da5997/dataset%20overview.jpg)
 
 ## Dataset Features:
   - Classes: Categories of crop diseases.
@@ -97,10 +97,10 @@ Training is performed using YOLOv8 and YOLOv11 with the following steps:
   - Loss visualization
   
   ### INPUT
-  ![Input]()
+  ![Input](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/db5c54086c6dde7a234f4d936e92eac236da5997/input.jpg)
   
   ### OUTPUT
-  ![Output]()
+  ![Output](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/db5c54086c6dde7a234f4d936e92eac236da5997/output.jpg)
 
 ##
 ### Annotated Data Saving
