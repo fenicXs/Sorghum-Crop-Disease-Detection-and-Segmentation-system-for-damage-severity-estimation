@@ -1,6 +1,6 @@
 # Crop Disease Detection using YOLOv8 and YOLOv11
 
-### Overview
+### Description
 This project focuses on **crop disease detection** leveraging **YOLOv8** and **YOLOv11** for object detection. The goal is to accurately detect and classify diseases in crops based on images. The dataset was annotated using the **Roboflow** platform, and the model was trained and deployed for high-performance inference on custom datasets.
 
 ## Key Features
@@ -42,7 +42,7 @@ This project focuses on **crop disease detection** leveraging **YOLOv8** and **Y
 ### Dataset
 The dataset contains images of crops with varying diseases, labeled and annotated using Roboflow. After annotation, the dataset is exported in YOLO format for compatibility with YOLOv8 and YOLOv11 models.
 
-## Overview:
+### Overview
 ![Overview]()
 
 ## Dataset Features:
@@ -89,8 +89,8 @@ Training is performed using YOLOv8 and YOLOv11 with the following steps:
     save_path = os.path.join(f'{HOME}/drive/MyDrive/YOLOv8', 'best.pt')
     torch.save(model.model.state_dict(), save_path)
 
-## Results:
-  
+## Results
+
   ### Training Metrics:
   - Confusion matrix
   - Precision, Recall, mAP
