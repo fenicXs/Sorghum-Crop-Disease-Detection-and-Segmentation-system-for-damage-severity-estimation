@@ -1,5 +1,6 @@
-# Crop Disease Detection using YOLOv8 and YOLOv11
+# Crop Disease Detection and Segmentation for damage severity estimation
 
+## Crop Disease Detection using YOLOv8 and YOLOv11
 ### Description
 This project focuses on **crop disease detection** leveraging **YOLOv8** and **YOLOv11** for object detection. The goal is to accurately detect and classify diseases in crops based on images. The dataset was annotated using the **Roboflow** platform, and the model was trained and deployed for high-performance inference on custom datasets.
 
@@ -27,7 +28,7 @@ This project focuses on **crop disease detection** leveraging **YOLOv8** and **Y
    - `opencv-python`
    - `numpy`
    - `openpyxl`
-3. Roboflow API Key (replace `"kX1T67tvKBnWqTL6ql1I"` with your key in the code).
+3. Roboflow API Key (replace the key used here with your key in the code).
 
 ### Steps
 1. Clone this repository:
@@ -121,6 +122,8 @@ Training is performed using YOLOv8 and YOLOv11 with the following steps:
   - Implement YOLOv11 enhancements.
   - Add multi-language support for the system.
   - Train models with larger datasets for improved generalization.
+
+## Disease Segmentation
 
 ### Contact
 For questions or collaboration, please contact:
