@@ -9,10 +9,10 @@ The dataset contains images of crops with varying diseases, labeled and annotate
 ![Overview](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/367192edf7da3cc2deac97ee5f61231111f7034e/dataset%20overview.jpg)
   
   ### INPUT
-  ![Input](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/db5c54086c6dde7a234f4d936e92eac236da5997/input.jpg)
+  ![Input](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/8b3a5668e9589d62fa679f7e08e151561408a292/Detection/input.jpg)
   
   ### OUTPUT
-  ![Output](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/db5c54086c6dde7a234f4d936e92eac236da5997/output.jpg)
+  ![Output](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/8b3a5668e9589d62fa679f7e08e151561408a292/Detection/output.jpg)
 
 ## Model comparison
 ![compare](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/10cb716774f34c9e12fd2cfbde78688827c15da6/v8%20vs%20v11%20graph.png)
