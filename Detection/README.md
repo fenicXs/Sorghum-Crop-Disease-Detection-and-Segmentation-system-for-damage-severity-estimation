@@ -1,7 +1,7 @@
 ## Crop Disease Detection using YOLO (v8, v11 & v12)
 This project focuses on **crop disease detection** leveraging **YOLOv8**, **YOLOv11** and **YOLOv12** for object detection. The goal is to accurately detect and classify diseases in crops based on images. The dataset was annotated using the **Roboflow** platform, and the model was trained and deployed for high-performance inference on custom dataset.
 
-![](https://github.com/fenicXs/Crop-Disease-Detection-system/blob/386f4dc02ee16484932c79bf22a654d36f582070/predict.jpg)
+![](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4f26a205245aae5e9df0ece38e54574dea9bf57a/Detection/predict.jpg)
 
 ### Dataset
 The dataset contains images of crops with varying diseases, labeled and annotated using Roboflow. After annotation, the dataset is exported in YOLO format for compatibility with YOLOv8, YOLOv11 and YOLOv12 models.
