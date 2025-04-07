@@ -19,7 +19,7 @@ The dataset contains images of crops with varying diseases, labeled and annotate
 ## Model comparison
 ![compare](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/10cb716774f34c9e12fd2cfbde78688827c15da6/v8%20vs%20v11%20graph.png)
 
----
+--
 
 # **Sorghum Disease Segmentation**
 
