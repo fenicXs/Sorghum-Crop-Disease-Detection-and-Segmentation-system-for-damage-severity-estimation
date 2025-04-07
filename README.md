@@ -53,7 +53,7 @@ The dataset contains images of crops with varying diseases, labeled and annotate
   - Images: High-resolution images of crops.
   - Annotations: Bounding boxes indicating diseased areas.
 
-###Training
+### Training
 Training is performed using YOLOv8 and YOLOv11 with the following steps:
 
   1. Import the dataset:
