@@ -125,87 +125,16 @@ Training is performed using YOLOv8 and YOLOv11 with the following steps:
   - Add multi-language support for the system.
   - Train models with larger datasets for improved generalization.
 ---
-# **Sorghum Disease Segmentation Using U-Net**
+# **Sorghum Disease Segmentation**
 
+## **U-net**
 This project focuses on segmenting and estimating the severity of **sorghum rust disease** using **U-Net**, a popular deep learning architecture for semantic segmentation. The solution leverages **ResNet-34** as the encoder and includes extensive data preprocessing and augmentation techniques to improve segmentation accuracy.
 
 ## **Project Overview**
 
-### **Key Features**
-1. **Disease Segmentation**:  
-   Segment affected regions in sorghum crop images to estimate rust disease damage severity.
-2. **Preprocessing and Augmentation**:  
-   Applied advanced transformations such as sharpening, blurring, and noise addition to enhance the model's generalizability.
-3. **Custom Dataset**:  
-   Utilized a labeled dataset of sorghum crop images and corresponding binary masks.
-4. **Deep Learning Model**:  
-   - **Model**: U-Net with ResNet-34 encoder.
-   - **Loss Function**: Dice Loss for handling class imbalance.
-   - **Metrics**: Intersection over Union (IoU) and F-score for performance evaluation.
-5. **Interactive Visualizations**:  
-   - Display input images, ground truth masks, and model predictions.
-   - Analyze model performance over training epochs using loss and IoU metrics.
-
-## **Dataset**
-
-### **Source**
-- The dataset comprises **images of sorghum crops** affected by rust disease along with corresponding binary masks for segmentation.  
-- **Image Format**: `.jpg`  
-- **Mask Format**: `.png`  
-
-### **Structure**
-    file structure
-    -Sorghum Disease Image Dataset/
-        -Rust/
-            -image1.jpg
-            -image2.jpg ...
-        -Rust_mask/
-            -image1.png
-            -image2.png 
-
-### **Installation**
-Install the required Python libraries
-
-    pip install -U segmentation-models-pytorch albumentations torch torchvision
-
-### Preprocessing and Augmentation
-- Transformations:
-  - Random Horizontal Flip
-  - Resize: 256x256
-  - Sharpening
-  - Gaussian Noise
-  - Normalization: Mean and standard deviation matching ImageNet statistics.
-
-### Model
-- Architecture
-  - Base Model: U-Net
-  - Encoder: ResNet-34 (pretrained on ImageNet)
-  - Activation Function: Sigmoid
-  - Loss Function: Dice Loss
-  - Optimizer: AdamW
-  - Learning Rate: 1e-4
-- Metrics
-  - IoU: Measures overlap between predicted and ground truth masks.
-  - F-score: Harmonic mean of precision and recall.
-### Training
-  - Epochs: 10
-  - Batch Size: 64
-  - Device: GPU
-  - During training:
-    - Tracked loss and IoU across epochs.
-    - Saved the model with the best IoU score to disk.
-
-### Visualizations
-Sample Visualization
+### **Sample Visualization**
 ![Visual](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/cc4be6ad4887beb2a6f44d3e438ebffbfe5cf8c7/Train%20result.png)
 
-## **Training Performance**
-
-### **IOU Score**
-![Visual](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/10cb716774f34c9e12fd2cfbde78688827c15da6/Unet%20IOU.png)
-
-### **DICE LOSS**
-![Visual](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/10cb716774f34c9e12fd2cfbde78688827c15da6/Unet%20Loss.png)
 
 ### Contact
 For questions or collaboration, please contact:
