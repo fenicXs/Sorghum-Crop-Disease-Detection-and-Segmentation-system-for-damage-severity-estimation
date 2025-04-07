@@ -11,7 +11,7 @@ Implements a U-Net-based semantic segmentation model to identify and segment dis
 - Implements training optimizations such as Early Stopping, Learning Rate Reduction, and Model Checkpointing.
 - Efficient data loading pipeline using *tf.data.Dataset* and OpenCV preprocessing.
 
-![Unet](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4d1343c23e1e57d8ac24820ff2ee1ea4a9b549d2/Segmentation/images/Unet.png)
+![Unet](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/7035a07a1cd9fc3b2caedc5f05fa811b89d3d6cf/Segmentation/images/Unet.png)
 
 ## **Residual U-net**
 The solution leverages **ResNet-34** as the encoder and includes extensive data preprocessing and augmentation techniques to improve segmentation accuracy.
@@ -40,7 +40,7 @@ MultiResUNet is a powerful architecture designed for robust segmentation, especi
 - Final Activation: sigmoid for binary segmentation tasks.
 - Input Shape: (height, width, channels) (e.g., (256, 192, 3) for RGB images)
 
-![MRU](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4d1343c23e1e57d8ac24820ff2ee1ea4a9b549d2/Segmentation/images/MRU.png)
+![MRU](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/7035a07a1cd9fc3b2caedc5f05fa811b89d3d6cf/Segmentation/images/MRU.png)
 
 ## **NVIDIA Segformer**
 This project leverages the SegFormer architecture from NVIDIA to perform semantic segmentation on sorghum leaf images affected by rust disease. The dataset is sourced from Roboflow, annotated using PNG masks for pixel-level segmentation.
@@ -66,4 +66,4 @@ dataset/
 - Supports fine-tuning on custom datasets
 - Data Preprocessing via SegformerFeatureExtractor (resizing, normalization, label alignment)
 
-![Segformer](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4d1343c23e1e57d8ac24820ff2ee1ea4a9b549d2/Segmentation/images/Segformer.png)
+![Segformer](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/7035a07a1cd9fc3b2caedc5f05fa811b89d3d6cf/Segmentation/images/Segformer.png)
