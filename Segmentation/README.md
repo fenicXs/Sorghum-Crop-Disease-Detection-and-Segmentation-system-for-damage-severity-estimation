@@ -51,7 +51,7 @@ This project leverages the SegFormer architecture from NVIDIA to perform semanti
 - Classes: Derived from _classes.csv in Roboflow export
 - Structure:
 ``` bash
-  dataset/
+dataset/
 ├── train/
 │   ├── image1.jpg
 │   ├── image1_mask.png
