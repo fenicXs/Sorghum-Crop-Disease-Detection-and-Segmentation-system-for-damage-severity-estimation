@@ -21,23 +21,8 @@ The dataset contains images of crops with varying diseases, labeled and annotate
 ## Model comparison
 ![compare](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/10cb716774f34c9e12fd2cfbde78688827c15da6/v8%20vs%20v11%20graph.png)
 
-## Annotated Data Saving
-- Save annotated images after inference:
-  ```python
-  model.predict(source=f'{dataset.location}/test/images', save=True, imgsz=800, conf=0.25)
-
-## Tools and Technologies
-  - YOLOv8/YOLOv11: Deep learning object detection models.
-  - Roboflow: Dataset annotation and management.
-  - Google Colab: Training and testing environment.
-  - PyTorch: Backend for YOLO models.
-  - OpenCV: Image processing for visualization.
-
-## Future Improvements
-  - Implement YOLOv11 enhancements.
-  - Add multi-language support for the system.
-  - Train models with larger datasets for improved generalization.
 ---
+
 # **Sorghum Disease Segmentation**
 
 ## **U-net**
