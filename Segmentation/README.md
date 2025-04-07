@@ -11,7 +11,7 @@ Implements a U-Net-based semantic segmentation model to identify and segment dis
 - Implements training optimizations such as Early Stopping, Learning Rate Reduction, and Model Checkpointing.
 - Efficient data loading pipeline using *tf.data.Dataset* and OpenCV preprocessing.
 
-![Unet]()
+![Unet](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4d1343c23e1e57d8ac24820ff2ee1ea4a9b549d2/Segmentation/Unet.png)
 
 ## **Residual U-net**
 The solution leverages **ResNet-34** as the encoder and includes extensive data preprocessing and augmentation techniques to improve segmentation accuracy.
@@ -66,4 +66,4 @@ dataset/
 - Supports fine-tuning on custom datasets
 - Data Preprocessing via SegformerFeatureExtractor (resizing, normalization, label alignment)
 
-![Segformer]()
+![Segformer](https://github.com/fenicXs/Sorghum-Crop-Disease-Detection-and-Segmentation-system-for-damage-severity-estimation/blob/4d1343c23e1e57d8ac24820ff2ee1ea4a9b549d2/Segmentation/Segformer.png)
