@@ -1,5 +1,5 @@
 # Crop Disease Detection and Segmentation for damage severity estimation
-
+---
 ## Crop Disease Detection using YOLO (v8, v11 & v12)
 This project focuses on **crop disease detection** leveraging **YOLOv8**, **YOLOv11** and **YOLOv12** for object detection. The goal is to accurately detect and classify diseases in crops based on images. The dataset was annotated using the **Roboflow** platform, and the model was trained and deployed for high-performance inference on custom dataset.
 
