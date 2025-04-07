@@ -50,7 +50,7 @@ This project leverages the SegFormer architecture from NVIDIA to perform semanti
 - Format: Semantic segmentation (.jpg images with .png masks)
 - Classes: Derived from _classes.csv in Roboflow export
 - Structure:
-bash
+``` bash
   dataset/
 ├── train/
 │   ├── image1.jpg
@@ -58,7 +58,7 @@ bash
 |   └── _classes.csv
 ├── valid/
 └── test/
-
+```
 ### **Key Features**
 
 - Base Model: nvidia/segformer-b0-finetuned-ade-512-512
