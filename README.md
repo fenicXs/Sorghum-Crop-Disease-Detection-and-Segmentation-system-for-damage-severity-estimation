@@ -1,6 +1,6 @@
 # Crop Disease Detection and Segmentation for damage severity estimation
 
-## :warning: Proceed to respective Folders for Results visualization
+## :warning: Proceed to respective Folders for Results visualization :warning:
 
 ### Contact
 For questions or collaboration, please contact:
